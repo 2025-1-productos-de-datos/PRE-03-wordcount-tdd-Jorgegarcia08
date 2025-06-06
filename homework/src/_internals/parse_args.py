@@ -1,9 +1,5 @@
-
-# Ejemplo de caso de uso:
-# python3 -m homework data/input data/output
-
-import sys
 import argparse
+
 
 def parse_args():
 
@@ -23,7 +19,3 @@ def parse_args():
     parsed_args = parser.parse_args()
 
     return parsed_args.input, parsed_args.output
-
-def main ():
-    input_folder, output_folder = parse_args()
-
